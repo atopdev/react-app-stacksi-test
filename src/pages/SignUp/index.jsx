@@ -33,6 +33,10 @@ const SignUp = () => {
 
   return (
     <div className="page">
+      <div className="overlay">
+        <div className="left"></div>
+        <div className="right"></div>
+      </div>
       <div className="card">
         <div className="card-left">
           <div className="text-2 mb-12">
