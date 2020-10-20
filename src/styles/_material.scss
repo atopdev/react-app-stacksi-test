@@ -1,0 +1,77 @@
+.MuiTextField-root {
+  min-height: 76px;
+
+  .MuiFormLabel-root, fieldset span {
+    font-size: 11px;
+    line-height: 15px;
+    color: #767E8D;
+    letter-spacing: 0;
+  }
+
+  .MuiFormLabel-root {
+    transform: translate(14px, -7px);
+
+    &.Mui-error {
+      color: #CC3A00;
+    }
+  }
+
+  .MuiInputBase-root {
+    border-radius: 6;
+  }
+
+  .MuiOutlinedInput-notchedOutline {
+    border-width: 1px !important;
+  }
+
+  .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #0078FA;
+  }
+
+  .Mui-error .MuiOutlinedInput-notchedOutline {
+    border-color: #CC3A00;
+  }
+
+  .MuiFormHelperText-root.Mui-error {
+    color: #CC3A00;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0;
+    margin-left: 0;
+  }
+}
+
+.MuiCheckboxField-root {
+  min-height: 40px;
+
+  .MuiFormControlLabel-root {
+    margin-bottom: 0;
+
+    .MuiButtonBase-root {
+      padding: 0 9px;
+    }
+  }
+
+  .MuiFormControlLabel-label {
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 17px;
+  }
+
+  .MuiFormHelperText-root.Mui-error {
+    color: #CC3A00;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0;
+    margin-top: 0;
+  }
+}
+
+.MuiButton-root.MuiButtonBase-root {
+  text-transform: initial;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 19px;
+  font-weight: normal;
+}
