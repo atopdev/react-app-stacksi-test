@@ -1,0 +1,38 @@
+@include margin-helper(0);
+@include margin-helper(8);
+@include margin-helper(10);
+@include margin-helper(12);
+@include margin-helper(16);
+@include margin-helper(20);
+@include margin-helper(24);
+@include margin-helper(30);
+@include margin-helper(32);
+@include margin-helper(40);
+@include margin-helper(48);
+@include padding-helper(0);
+@include padding-helper(8);
+@include padding-helper(10);
+@include padding-helper(12);
+@include padding-helper(16);
+@include padding-helper(20);
+@include padding-helper(24);
+@include padding-helper(30);
+@include padding-helper(32);
+@include padding-helper(40);
+@include padding-helper(48);
+
+.d-block {
+  display: block !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.hidden {
+  display: none !important;
+}
